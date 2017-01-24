@@ -1,0 +1,125 @@
+
+/* =========== GENERAL ======== */
+/* Generella CSS-instruktioner */
+
+body{
+	background: #eee;
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	line-height: 1.5em;
+	font-size: 16px;
+	color: #333;
+}
+
+h1, h2, h3{
+	margin: 1.5em 0 0.5em 0;
+
+}
+
+nav{
+	background: #333;
+	color: #fff;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline;
+	padding: 0 20px;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+div#content{
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+div#header{
+	height: 250px;
+	background-color: #999;
+	background-image: url('images/topbanner.jpg');
+	background-size: 100%;
+	background-position: center center;
+	font-family: Parisienne;
+	background-blend-mode: darken;
+}
+
+div#header p{
+	text-align: center;
+	font-size: 500%;
+	padding-top: 100px;
+	color: #fff;
+	margin: 0;
+}
+
+div.text{
+	padding: 25px 100px;
+	overflow: hidden;
+}
+
+/* =========== GALLERY =================== */
+/* CSS-instruktioner som rör bildgalleriet */
+
+div#gallery div.image{
+	background-size: cover;
+	background-position: center center;
+	width: 240px;
+	height: 200px;
+	margin: 10px;
+	display: inline-block;
+}
+
+/* =========== BOOKING =================== */
+/* CSS-instruktioner som rör bokningssidan */
+
+form#roomsearch{
+	margin-bottom: 20px;
+}
+
+div.room{
+	background: #f0f0f0;
+	border-bottom: 3px solid #ccc;
+	border-left: 3px solid #ccc;
+	padding: 10px 30px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 180px;
+	height: 200px;
+	float: left;
+}
+
+div.room h2{
+	font-size: 110%;
+	margin-top: 0;
+}
+
+div#personal_info{
+	float: left;
+	clear: both;
+}
+
+div#personal_info label{
+	display: block;
+}
+
+/* =========== ADMIN =================== */
+/* CSS-instruktioner som rör admin-sidan */
+
+textarea.pagecontent{
+	width: 100%;
+	height: 300px;
+}
+
+.tablehead{
+	font-weight: bold;
+}
